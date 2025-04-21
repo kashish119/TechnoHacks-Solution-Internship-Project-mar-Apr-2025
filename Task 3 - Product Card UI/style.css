@@ -1,0 +1,52 @@
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container{
+    /* border: 5px solid black; */
+    background: url("background.jfif");
+    background-size: cover;
+    /* background-color: rgb(46, 46, 114); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.content1{
+    background: #504b4b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 -4px 8px rgba(0, 0, 0, 0.2),
+    4px 0 8px rgba(0, 0, 0, 0.2), -4px 0 8px rgba(0, 0, 0, 0.2);;
+    border-radius: 30px;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 350px;
+}
+img{
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto;
+    border-radius: 15px;
+}
+p{
+    font-weight: bold;
+}
+button{
+    border:5px solid aqua;
+    background-color: #363434;
+    color: white;
+    border-radius: 14px;
+    padding: 10px;
+    font-weight: bolder;
+    margin: 12px;
+}
+button:hover{
+    background-color: blue;
+}
